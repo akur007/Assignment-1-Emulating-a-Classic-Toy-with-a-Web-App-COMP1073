@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Adjust the value to make the button more or less round */
+    margin-right: 10px;
+}
+
+/* Adding color for each button */
+#noun1 {
+	background-color : #af4ca2; 
+}
+
+#verb {
+	background-color : #48c6dd;
+}
+
+#adjective {
+	background-color : #0ba94e;
+}
+
+#noun2 {
+	background-color : #e15f0b;
+}
+
+#setting {
+	background-color : #e10b98;
+}
+
+#playback {
+	background-color : #0be199;
+}
+
+#random {
+	background-color : #f02c2c;
+}
+
+/* Setting font soxe and paading for text box button to add the student name/id*/
+#studentInputButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+/*Seeting height for student id/name text box */
+#studentIdInputField {
+	height: 30px;
+}
+
+
+/* Story creation section */
+#choosenNoun1,
+#choosenVerb,
+#choosenAdjective,
+#choosenNoun2,
+#choosenSetting {
+    margin-bottom: 10px;
+}
+
+/* Story section, setting font size to italic*/
+#story {
+    font-style: italic;
+}
